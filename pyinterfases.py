@@ -79,7 +79,7 @@ def add(name, ip, prefix, gateway):
         the_file.write('IPV6_FAILURE_FATAL=no\n')
         the_file.write('IPV6_ADDR_GEN_MODE=stable-privacy\n')
         the_file.write('NAME='+name+'\n')
-        the_file.write('UUID=0eee1895-219f-48a1-8373-726ec5167f87\n')
+        the_file.write('UUID='+get_uuid(name)+'\n')
         the_file.write('DEVICE='+name+'\n')
         the_file.write('ONBOOT=yes\n')
       else:
@@ -94,7 +94,7 @@ def add(name, ip, prefix, gateway):
         the_file.write('IPV6_FAILURE_FATAL=no\n')
         the_file.write('IPV6_ADDR_GEN_MODE=stable-privacy\n')
         the_file.write('NAME='+name+'\n')
-        the_file.write('UUID=0eee1895-219f-48a1-8373-726ec5167f87\n')
+        the_file.write('UUID='+get_uuid(name)+'\n')
         the_file.write('DEVICE='+name+'\n')
         the_file.write('ONBOOT=yes\n')
         the_file.write('DNS1=8.8.8.8\n')
