@@ -1,4 +1,5 @@
-# this is network interfases manager libery for sentos in python
+#this is network Interfaces manager libery for CentOS in python
+
 import os
 import subprocess
 def get_uuid(name):

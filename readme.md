@@ -2,7 +2,7 @@ hi
 
 this is pyinterfases
 
-a network interfases manager libery for sentos in python
+a network Interfaces manager libery for CentOS in python
 
 ### install
 
@@ -10,7 +10,7 @@ just cloned and import it
 
 ### used:
 
-to list all Network interfaces use
+to list all Network Interfaces use
 
 net_list()
 
